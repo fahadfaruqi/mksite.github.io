@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio Landing Page</title>
+    <link rel="icon" href="favicon.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="banner">
+        <img src="5167752.jpg" class="cover" />
+      </div>
+      <div class="navLink">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="sec">
+      <header>
+        <div class="toggle"></div>
+        <a
+          href="https://wa.me/919265845863/?text=Hey there!"
+          target="_blank"
+          class="btn"
+          >Hire Me</a
+        >
+      </header>
+
+      <div class="imgBx">
+        <img src="mesh.jpg" class="cover" />
+      </div>
+      <div class="content">
+        <h2>Hi, I am<br /><span>Mesha Kansara</span></h2>
+        <p>
+          I am a Interior Designer. I carry 2.5 Years of Experience in an
+          architectural firm as an Interior Designer and working as a
+          Freelancer. I completed my Diploma in Interior Designing at SNDT
+          Women's University in Mumbai. Owing to my grades as well as
+          creativity, I feel confident that you will find my work beyond
+          satisfactory.
+          <li>
+            Competent at designing and creating innovative concepts as per the
+            client's needs and budgets
+          </li>
+          <li>
+            Demonstrated ability to utilize, sketch designs and identify
+            materials and furnishings.
+          </li>
+          <li>Proficient in AutoCAD, Sketch-Up and 3D Software.</li>
+          <li>Exceptional attention to detail.</li>
+          <li>
+            Well versed in scheduling professional home and office consultants.
+          </li>
+          <li>Ability to produce budgets and calculate quantities.</li>
+          <li>Able to work well individually as well as in a teams.</li>
+        </p>
+        <a href="MESHA KANSARA'S PORTFOLIO.pdf" target="_blank" class="btn"
+          >Download My CV</a
+        >
+      </div>
+
+      <footer>
+        <ul class="sci">
+          <li>
+            <a href="#"><img src="twitter.png" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/obsidian_den/" target="_blank"
+              ><img src="instagram.png"
+            /></a>
+          </li>
+        </ul>
+        <p class="copyrightText">&copy; MeeKan Studios</p>
+      </footer>
+    </section>
+
+    <script>
+      let menuToggle = document.querySelector(".toggle");
+      let navigation = document.querySelector(".navigation");
+      let sec = document.querySelector(".sec");
+      menuToggle.onclick = function () {
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+        sec.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
